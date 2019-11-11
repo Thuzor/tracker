@@ -10,7 +10,7 @@ const HabitButton = ({date}) => {
             <FormControlLabel
                 control={ <Switch
                     checked={complete}
-                    onClick={() => {setComplete(!complete)}}
+                    onChange={(event) => {setComplete(event.target.checked)}}
                 />}
                 label={`${date.getDate()}/${date.getMonth() + 1}`}
                 labelPlacement="top"
