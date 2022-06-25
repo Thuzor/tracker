@@ -19,7 +19,7 @@
     "apollo-server-micro": "^2.9.7",
     "graphql-tag": "^2.10.1",
     "next": "9.1.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "react": "16.11.0",
     "react-dom": "16.11.0"
   }
